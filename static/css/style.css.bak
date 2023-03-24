@@ -1,0 +1,36 @@
+#logo {
+	font-size: 450%;
+	display: inline-block;
+}
+
+.page {
+	font-size: 200%;
+	display: inline-block;
+}
+
+.social_media{
+	font-size: 200%;
+	color: black;
+	text-decoration: none;
+	display: inline-block;
+}
+
+.social_media:hover{
+	text-decoration: underline;
+}
+
+.block_of_text {
+	font-size: 225%;
+}
+
+.contacts {
+	font-size: 200%;
+}
+
+#aboutMe {
+	margin-left: 30%;
+}
+
+#pc {
+	margin-left: 1%;
+}

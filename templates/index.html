@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width">
+		<title>Lorem Ipsum</title> 
+		<link href="{{url_for('static', filename='css/style.css')}}", rel="stylesheet", type="text/css"/>
+	</head>
+	
+	<body>
+		<script src="{{url_for('static', filename='js/serverCommutation.js')}}"></script>
+		<div id="blackout" onclick="RegisterForm.hideRegisterForm()"></div>
+		<header> 
+			<a href="/home" id="logo">Lorem Ipsum</a>
+			<div class="page">
+				<table id="menu">
+					<tr><td><a class="link" href="#me" id="aboutMe">What is Lorem Ipsum</a></td><td><a class="link" id="VK" href="https://www.lipsum.com/" target="blank_">Lorem</a></td><td><a class="link" id="reg">Регистрация</a></td></tr>
+					<tr><td><a class="link" href="#pc" id="pcPower">Why do we use it</a></td><td><a class="link" id="YouTube" href="https://www.lipsum.com/" target="blank_">Ipsum</a></td></td><td><a class="link" id="logIn">Вход</a></td></tr>
+				</table>
+			</div>
+		</header>
+		<div id="mainContent"> 
+			<script src="{{url_for('static', filename='js/register.js')}}"></script>
+			<script src="{{url_for('static', filename='js/logIn.js')}}"></script>
+			{% block content %}
+			{% endblock %}
+		</div>
+	</body>
+	<footer id="bottom"> 
+		<div id="contacts"><div id="con"><br/></div></div>
+		<div id="middle">Lorem Ipsum</div>
+	</footer>
+</html>

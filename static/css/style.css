@@ -1,0 +1,334 @@
+@font-face {
+  font-family: 'Bring tha noize';
+  src: url(resources/fonts/bring-tha-noize.ttf) format('ttf');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Bender';
+  src: url(resources/fonts/Bender.ttf) format('ttf');
+  font-weight: 400;
+}
+
+html {
+	height: 100%;
+}
+
+h3 {
+	font-family: 'Bender';
+}
+
+h1 {
+	font-family: 'Bender';
+}
+
+h4 {
+	font-family: 'Bender';
+}
+
+body { 
+	position: relative;
+	min-height: 100%; 
+	margin: 0; 
+	padding: 0; 
+} 
+
+header {
+	background-color: black;
+	background-size: 100% 100%;
+	position: relative;
+	width: 100%;
+	margin-right: 0;
+	height: 100px;
+}
+
+#logo {
+	font-family: 'Bring tha noize';
+	position: absolute;
+	display: inline-block;
+	height: 100%;
+	width: 20%;
+	color: red;
+	font-size: 50px;
+	padding-left: 20px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	text-decoration: none;
+	white-space: nowrap
+}
+
+.page {
+	position: relative;
+	display: inline-block;
+	margin-left: 60%;
+	padding-top: 20px;
+	height: 100%;
+	right: 0;
+
+}
+
+#menu {
+	width: 40%;
+	background-color: black;
+	border-collapse: separate;
+	border-spacing: 10% 0px;
+	right: 0;
+}
+
+td {
+	border-collapse: collapse;
+	border-style: solid;
+	border-width: 2px;
+	border-color: none;
+	
+	width: auto;
+	white-space: nowrap
+}
+
+#aboutMe {
+	font-family: 'Bender';
+	position: relative;
+	display: inline-block;
+	color: white;
+	text-align: center;
+}
+
+#pcPower {
+	font-family: 'Bender';
+	position: relative;
+	display: inline-block;
+	color: white;
+	text-align: center;
+}
+
+#VK {
+	font-family: 'Bender';
+	position: relative;
+	display: inline-block;
+	color:  white;
+}
+
+#YouTube {
+	font-family: 'Bender';
+	position: relative;
+	display: inline-block;
+	color:  white;
+}
+
+#reg {
+	font-family: 'Bender';
+	position: relative;
+	display: inline-block;
+	color:  white;
+	cursor: pointer;
+}
+
+#logIn {
+	font-family: 'Bender';
+	position: relative;
+	display: inline-block;
+	color: white;
+	padding-left: 10px;
+	cursor: pointer;
+}
+
+.link{
+	text-decoration: none;
+}
+
+.link:hover {
+	text-decoration: underline;
+}
+
+#me {
+	display: inline-block;
+	font-family: 'Bender';
+	background: url(resources/sprites/block_of_text1.png);
+	background-size: 100% 100%;
+	margin-top: 10%;
+	width: 50%;
+	height: auto;
+	color: white;
+	font-size: 25px;
+	padding-right: 50px;
+	padding-left: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#pc {
+	margin-top: 10%;
+	background: url(resources/sprites/block_of_text1.png);
+	background-size: 100% 100%;
+	width: 50%;
+	height: auto;
+	font-size: 25px;
+	margin-left: auto;
+	padding-top: 10px;
+	padding-right: 50px;
+	padding-bottom: 10px;
+	transform:  scaleX(-1);
+	right: 0;
+}
+
+#pc_content {
+	transform:  scaleX(-1);
+	font-family: 'Bender';
+	color: white;
+	text-align:  right;
+	padding-right: 10px;
+}
+
+#end {
+	display: inline-block;
+	font-family: 'Bender';
+	background: url(resources/sprites/block_of_text1.png);
+	background-size: 100% 100%;
+	margin-top: 10%;
+	margin-bottom: 20%;
+	width: 50%;
+	height: auto;
+	color: white;
+	font-size: 25px;
+	padding-right: 50px;
+	padding-left: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#bottom {
+	position: fixed;
+	margin-top: 50px;
+	background-color: black;
+	width: 100%;
+	height: 100px;
+	bottom: 0;
+}
+
+#contacts {
+	display: inline-block;
+	position: absolute;
+	background-color: black;
+	width: 30%;
+	height: 100px;
+}
+
+#middle {
+	font-family: 'Bender';
+	display: inline-block;
+	position: relative;
+	width: 30%;
+	height: 30px;
+	margin-left: 45%;
+	color:  white;
+	padding-left:  80px;
+	background-color: black;
+	margin-top: 35px;
+}
+
+#con {
+	font-family: 'Bender';
+	color: white;
+	padding-top: 30px;
+	padding-left: 10px;
+}
+
+#signatures {
+	font-family: 'Bender';
+	border-style: solid;
+	border-width: 3px;
+	border-color: black;
+	width: 90%;
+	height: auto;
+	margin-top: 30px;
+	margin-left: 5%;
+	padding-left: 5px;
+}
+
+#prankButton {
+	font-family: 'Bender';
+	border-style: solid;
+	border-width: 2px;
+	border-color: black;
+	background-color: white;
+	width: 130px;
+	height: 30px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+#prankButton:hover {
+	border-width: 5px;
+}
+
+.ValidatableForm {
+	font-family: 'Bender';
+	border-style: solid;
+	border-width: 3px;
+	width: 350px;
+	height: 400px;
+	padding-top: 100px;
+	padding-left: 150px;
+	background-color: white;
+	
+	position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  overflow: hidden;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center; /* см. ниже */
+  align-items: center;
+  z-index: 99;
+  /* Чтобы окно не прилипало к границе
+  браузера установим отступы */
+  padding:30px 0;
+  margin: auto;
+}
+
+.FormLabel {
+	font-size: 25px;
+	margin-bottom: 20px;
+}
+
+.textField {
+	font-family: 'Bender';
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+	margin-top: 5px;
+}
+
+.show-hideButton {
+	background-image: url("resources/sprites/hide.png");
+	background-size: 100% 100%;
+	height: 20px;
+	width: 20px;
+	border: none;
+	background-color: white;
+}
+
+.Submit {
+	font-family: 'Bender';
+	background-color: white;
+	border-style: solid;
+	border-color: black;
+}
+
+.FormError {
+	font-family: 'Bender';
+	text-align: justify;
+}
+
+/*#blackout {
+	background-color:rgba(0,0,0,.4);
+  height:100%;
+  position:fixed;
+  width:100%;
+  top:0;
+  left:0;
+}*/
